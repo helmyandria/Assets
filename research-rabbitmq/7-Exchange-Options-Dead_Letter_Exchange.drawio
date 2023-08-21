@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T03:40:07.551Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="21.6.8" etag="0gv0aasT355Rz0exsMTn" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-21T03:42:13.529Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="VyhvnETyloxeL6jdSBrQ" version="21.6.8" type="github">
   <diagram name="Page-1" id="B905wqaFI03MKwrz9kte">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="-462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="gdqpcWl4T6Iy2QmBRYo1-2" target="gdqpcWl4T6Iy2QmBRYo1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-2" value="Producer" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#0050ef;strokeColor=default;fontColor=#ffffff;fontSize=17;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1220" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-3" value="Consumer" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#0050ef;strokeColor=default;fontColor=#ffffff;fontSize=17;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1226" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-4" value="Logging&lt;br&gt;Service" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#0050ef;strokeColor=default;fontColor=#ffffff;fontSize=17;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1530" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="gdqpcWl4T6Iy2QmBRYo1-7" target="gdqpcWl4T6Iy2QmBRYo1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-7" value="Main&lt;br&gt;Exchange" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;fontSize=16;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1205" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="gdqpcWl4T6Iy2QmBRYo1-9" target="gdqpcWl4T6Iy2QmBRYo1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-9" value="DL&lt;br&gt;Exchange" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;fontSize=16;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="436" y="1360" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.015;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="gdqpcWl4T6Iy2QmBRYo1-11" target="gdqpcWl4T6Iy2QmBRYo1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.44;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="gdqpcWl4T6Iy2QmBRYo1-11" target="gdqpcWl4T6Iy2QmBRYo1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-11" value="queue" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontSize=17;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1225" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="gdqpcWl4T6Iy2QmBRYo1-13" target="gdqpcWl4T6Iy2QmBRYo1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-13" value="queue" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontSize=17;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gdqpcWl4T6Iy2QmBRYo1-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;binding&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1220" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
